@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+nav{
+    height:90px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 1px #444;
+
+}
+nav span{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav ul a {
+    text-decoration: none;
+    color: #444;
+}
+#home{
+    height: 91vh;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/id/2183730222/photo/office-worker-eating-healthy-lunch-at-desk.jpg?s=1024x1024&w=is&k=20&c=LsE8NRhekWEGZExw0bw7Ch2kQu_6_u7qceouBn633QA=
+
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-top: 3.5rem;
+}
+#home{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.btn{
+padding: 15px 18px;
+color: white;
+}
+.order-btn{
+    background-color: orange;
+    border: none;
+}
+.order-btn:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+    box-shadow: 1px 2px 2px orange;
+}
+.book-btn:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+    cursor: pointer;
+    box-shadow: 2px 3px 3px orange;
+    border: orange;
+
+
+}
+#about{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+
+}
+#about img{
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+#about.meal h3{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+
+}.meal p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: large;
+line-height: 25px;
+}
+.meal button{
+    background-color: orange;
+    border: none;
+    padding: 15px;color:white;
+}
+.meal :hover{
+    background-color: white;
+    color: orange;
+    border: 1px ;
+    margin-top: 10px;
+}
+
+#services h2{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin-top: 1px;
+    margin-bottom: 20px;
+
+}
+
+.services-p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    gap: 20px;
+
+}
+.services-card{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 70px 30px;
+    border: none;
+    border-radius: 20px;
+
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.services-card:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+#pricing h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 30px;
+}
+#pricing p{
+    text-align: center;
+
+}
+.pricing-card-container{
+   padding: 40px 70px; 
+}
+
+
+
